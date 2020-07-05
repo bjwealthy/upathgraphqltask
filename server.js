@@ -1,3 +1,4 @@
+
 var { graphql, buildSchema } = require('graphql');
 
 // Construct a schema, using GraphQL schema language
@@ -18,3 +19,31 @@ var root = {
 graphql(schema, '{ hello }', root).then((response) => {
   console.log(response);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
